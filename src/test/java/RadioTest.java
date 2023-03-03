@@ -63,7 +63,7 @@ public class RadioTest {
     }
 
     @ParameterizedTest
-    @CsvFileSource(files = "src/test/resources/Volume.csv")
+    @CsvFileSource(files = "src/test/resources/volume.csv")
     public void getVolume(int currentVolume, int expected) {
         Radio radio = new Radio();
         radio.setCurrentVolume(currentVolume);
