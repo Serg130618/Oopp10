@@ -26,7 +26,7 @@ public class RadioChTest {
     }
 
     @ParameterizedTest
-    @CsvFileSource(files = "src/test/resources/Prev.csv")
+    @CsvFileSource(files = "src/test/resources/prev.csv")
 
     public void Prev(int currentStation, int expected) {
         radio.setCurrentStation(currentStation);
